@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.ruff_cache/
+.pytest_cache/
+# nunca versionar credenciais nem dados reais de billing
+credentials*.json
+*.key.json

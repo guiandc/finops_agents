@@ -1,0 +1,19 @@
+[project]
+name = "finops-agents"
+version = "0.1.0"
+description = "Agentes de FinOps para GCP, começando pelo Release Watcher"
+requires-python = ">=3.11"
+# Versões sem pin de propósito na Fase 0: instale, teste e então fixe.
+# Confirme o requisito de versão do Python do ADK na documentação atual.
+dependencies = [
+  "google-adk",
+  "google-cloud-bigquery",
+  "pydantic>=2",
+  "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.ruff]
+line-length = 100
