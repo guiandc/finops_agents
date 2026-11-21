@@ -24,3 +24,4 @@ bq query --use_legacy_sql=false --maximum_bytes_billed=1000000000 < sql/00_schem
 - [ ] `00_schema.sql` rodada; schema anotado
 - [ ] Queries 01 a 03 exploradas
 - [ ] 50 a 60 notas rotuladas em `evals/labeled_notes.csv`
+
